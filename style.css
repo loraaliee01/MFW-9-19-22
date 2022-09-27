@@ -1,0 +1,26 @@
+.card{
+
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    box-sizing: border-box;
+    font-size: clamp(16px, 2vw, 30px);
+}
+.parent{
+    border: 20px solid red;
+}
+.card img{
+    width: 100%;
+}
+@media (max-width: 1083px) {
+    .card {
+        width: 40%;
+        margin: 4%;
+    }
+}
+@media (max-width: 548px) {
+    .card{
+        width: 100%;
+        margin: 0;
+    }    
+}
