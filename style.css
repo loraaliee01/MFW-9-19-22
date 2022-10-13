@@ -11,8 +11,8 @@
     display:flex;
     justify-content: space-between;
   }
-  .links {
-    /* display: none; */
+  .links{
+    display: none;
   }
   .links a {
     display: block;
