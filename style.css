@@ -1,38 +1,10 @@
-.bar{
-    background-color: lightgrey;
-    padding: 10px;
-    transition: all 1s ease;
-    height: 9rem;
-    overflow: hidden;
-  }
-  .logo {
-    font-size: 30px;
-    text-transform: capitalize;
-    display:flex;
-    justify-content: space-between;
-  }
-
-  .links a {
-    display: block;
-  }
-
-  .closed {
-    height: 3rem;
-    overflow: hidden;
-    transition: all 1s ease;
-  }
-
-  @media (min-width: 992px) {
-    .burger {
-      display: none;
-    }
-    .logo{
-        display: inline;
-    }
-    .links {
-        display: inline;
-    }
-    .links a {
-        display: inline;
-      }
-  }
+table {
+  width: 100%;
+}
+tr {
+  border: 1px solid #000;
+}
+td {
+  border: 1px solid #000;
+  padding: 5px;
+}
